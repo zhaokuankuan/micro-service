@@ -1,0 +1,11 @@
+server:
+  port: 8991
+  servlet:
+    context-path: /hystrix-databoard
+spring:
+  application:
+    name: hystrix-databoard
+eureka:
+  client:
+    service-url:
+      defaultZone: http://broker2:8761/eureka/,http://broker1:8762/eureka/

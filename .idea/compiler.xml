@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="micro-service-common" />
+        <module name="microserver-provider" />
+        <module name="microservice-business" />
+        <module name="microservice-cloud-config" />
+        <module name="microservice-consumer" />
+        <module name="microservice-hystrix-databoard" />
+        <module name="microservice-hystrix-turbine" />
+        <module name="microservice-provider" />
+        <module name="microservice-zipkin" />
+        <module name="microservice-zuul" />
+        <module name="register-eureka" />
+        <module name="registser-eureka" />
+        <module name="test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="micro-service" target="1.8" />
+      <module name="micro-service-common" target="1.8" />
+      <module name="micro-service-config" target="1.8" />
+      <module name="micro-service-gateway" target="1.8" />
+      <module name="micro-service-hystrix" target="1.5" />
+      <module name="micro-service-register" target="1.8" />
+      <module name="micro-service-server" target="1.8" />
+      <module name="micro-service-sleuth" target="1.8" />
+      <module name="microservice-business" target="1.8" />
+      <module name="microservice-cloud-config" target="1.8" />
+      <module name="microservice-consumer" target="1.8" />
+      <module name="microservice-hystrix-databoard" target="1.8" />
+      <module name="microservice-hystrix-turbine" target="1.8" />
+      <module name="microservice-provider" target="1.8" />
+      <module name="microservice-zipkin" target="1.8" />
+      <module name="microservice-zuul" target="1.8" />
+      <module name="registser-eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

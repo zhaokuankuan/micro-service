@@ -1,0 +1,20 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: provider-service
+  zipkin:
+    base-url: http://localhost:8770
+  sleuth:
+    sampler:
+      probability: 1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://broker2:8761/eureka/,http://broker1:8762/eureka/
+logging:
+  level:
+    org.springframework.web: debug
+
+

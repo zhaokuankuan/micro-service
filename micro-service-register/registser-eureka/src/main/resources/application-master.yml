@@ -1,0 +1,12 @@
+server:
+  port: 8761
+
+eureka:
+  client:
+    registerWithEureka: true #是否将自身也注册到server中心
+    fetchRegistry: true #是否从eureka服务器获取注册信息
+    serviceUrl:
+      defaultZone: http://broker1:8762/eureka/
+spring:
+  application:
+    name: register-eureka

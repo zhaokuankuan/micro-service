@@ -1,0 +1,24 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          uri: https://github.com/zhaokuankuan/micro-service-config
+          search-paths:
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://broker2:8761/eureka/,http://broker1:8762/eureka/
+#config-client-dev.properties
+#/{application}/{profile}[/{label}]
+#/{application}-{profile}.yml
+#/{label}/{application}-{profile}.yml
+#/{application}-{profile}.properties
+#/{label}/{application}-{profile}.properties

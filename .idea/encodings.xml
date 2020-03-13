@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-config/microservice-cloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-gateway/microservice-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-hystrix/microservice-hystrix-databoard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-hystrix/microservice-hystrix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-register/registser-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-server/microservice-business" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-server/microservice-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-server/microservice-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-sleuth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-service-sleuth/microservice-zipkin" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

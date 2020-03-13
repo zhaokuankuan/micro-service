@@ -1,0 +1,29 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: business-service
+logging:
+  level:
+    org.springframework.web: debug
+eureka:
+  client:
+    service-url:
+      defaultZone: http://broker2:8761/eureka/,http://broker1:8762/eureka/
+feign:
+  hystrix:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+ribbon:
+  eureka:
+    enabled: true
+  eager-load:
+    enabled: true
+    clients: provider-service

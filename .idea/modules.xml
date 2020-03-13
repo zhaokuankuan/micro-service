@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/micro-service.iml" filepath="$PROJECT_DIR$/micro-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-common/micro-service-common.iml" filepath="$PROJECT_DIR$/micro-service-common/micro-service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-config/micro-service-config.iml" filepath="$PROJECT_DIR$/micro-service-config/micro-service-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-gateway/micro-service-gateway.iml" filepath="$PROJECT_DIR$/micro-service-gateway/micro-service-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-hystrix/micro-service-hystrix.iml" filepath="$PROJECT_DIR$/micro-service-hystrix/micro-service-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-register/micro-service-register.iml" filepath="$PROJECT_DIR$/micro-service-register/micro-service-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-server/micro-service-server.iml" filepath="$PROJECT_DIR$/micro-service-server/micro-service-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-sleuth/micro-service-sleuth.iml" filepath="$PROJECT_DIR$/micro-service-sleuth/micro-service-sleuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-server/microservice-business/microservice-business.iml" filepath="$PROJECT_DIR$/micro-service-server/microservice-business/microservice-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-config/microservice-cloud-config/microservice-cloud-config.iml" filepath="$PROJECT_DIR$/micro-service-config/microservice-cloud-config/microservice-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-server/microservice-consumer/microservice-consumer.iml" filepath="$PROJECT_DIR$/micro-service-server/microservice-consumer/microservice-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-hystrix/microservice-hystrix-databoard/microservice-hystrix-databoard.iml" filepath="$PROJECT_DIR$/micro-service-hystrix/microservice-hystrix-databoard/microservice-hystrix-databoard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-hystrix/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" filepath="$PROJECT_DIR$/micro-service-hystrix/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-server/microservice-provider/microservice-provider.iml" filepath="$PROJECT_DIR$/micro-service-server/microservice-provider/microservice-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-sleuth/microservice-zipkin/microservice-zipkin.iml" filepath="$PROJECT_DIR$/micro-service-sleuth/microservice-zipkin/microservice-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-gateway/microservice-zuul/microservice-zuul.iml" filepath="$PROJECT_DIR$/micro-service-gateway/microservice-zuul/microservice-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-register/registser-eureka/registser-eureka.iml" filepath="$PROJECT_DIR$/micro-service-register/registser-eureka/registser-eureka.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+server:
+  port: 80
+spring:
+  application:
+    name: zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://broker2:8761/eureka/,http://broker1:8762/eureka/
+zuul:
+  routes:
+    provider-service:
+      path: /provider-service/**
+      serviceId: provider-service
+    consumer-service:
+      path: /consumer-service/**
+      serviceId: consumer-service
+    business-service:
+      path: /business-service/
+      serviceId: business-service
+    zuul:
+      path: /zuul/**
+      serviceId: zuul
+    config-server:
+      path: /config-server/**
+      serviceId: config-server
+    hystrix-databoard:
+      path: /hystrix-databoard/**
+      serviceId: hystrix-databoard
+    service-turbine:
+      path: /service-turbine/**
+      serviceId: service-turbine
+ribbon:
+  eureka:
+    enabled: true

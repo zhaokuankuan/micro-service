@@ -1,0 +1,40 @@
+server:
+  port: 8002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://broker2:8761/eureka/,http://broker1:8762/eureka/
+ribbon:
+  eureka:
+    enabled: true
+  eager-load:
+    enabled: true
+    clients: provider-service
+feign:
+  hystrix:
+    enabled: true
+congigValue: ${foo}
+spring:
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    port: 5672
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  zipkin:
+    base-url: http://localhost:8770
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+logging:
+  level:
+    org.springframework.web: debug
