@@ -1,6 +1,6 @@
 **springcloud实战总章**
 
-前言：
+ 前言：
 	该主题springcloud实战总章是基于springcloud Finchley.SR4 版本的，因为springcloud版本更新较快，因为在阅读该专题时候注意查看自己的版本和博主的版本是否一致。
 	本专题将按照搭建的过程从零到一的讲述搭建的时候的一些细节和过程中踩过的坑点，在阅读之前最好能拥有一些springboot的使用基础，可以查看博主有的springboot对基本的使用有一个认识。
     本专题将按照：
