@@ -6,7 +6,8 @@ eureka:
     registerWithEureka: true #是否将自身也注册到server中心
     fetchRegistry: true #是否从eureka服务器获取注册信息
     serviceUrl:
-      defaultZone: http://broker2:8761/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
+#      defaultZone: http://broker2:8761/eureka/
 spring:
   application:
     name: register-eureka
