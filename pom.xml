@@ -28,7 +28,7 @@
         <springcloud-dependencies.vsersion>Finchley.SR4</springcloud-dependencies.vsersion>
         <springboot-dependencies.version>2.0.9.RELEASE</springboot-dependencies.version>
         <springboot-maven-plugin.version>2.1.1.RELEASE</springboot-maven-plugin.version>
-        <fastjson.version>1.2.60</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
     </properties>
 
 
